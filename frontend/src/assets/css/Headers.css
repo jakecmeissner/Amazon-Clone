@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.head {
+    width: 100%;
+    background-color: #222f42;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    top: 0;
+    height: 47px;
+}
+
+.logo {
+    width: 10%;
+    padding: 0px 100px;
+}
+
+.center-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    height: 37px;
+    padding: 0px 17px;
+    background-color: white;
+    align-items: center;
+}
+
+.nav-category {
+    background-color: #E9E9E7;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    right: 17px;
+    display: flex;
+    align-items: center;
+}
+
+span.nav-category-span {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 300;
+    color: #242424;
+    position: relative;
+    left: 9px;
+}
+
+input.nav-input {
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 200;
+    border: none;
+    position: relative;
+    right: 9px;
+}
+
+button.nav-button {
+    height: 37px;
+    width: 69px;
+    position: relative;
+    left: 17px;
+    background-color: #FF6500;
+    color: white;
+    border: none;
+}
+
+button.nav-button-image {
+    position: relative;
+    top: 2px;
+}
+
+div {
+    display: block;
+}
+
+header nav .signin {
+    color: #fff;
+}
+
+.profile-photo-block {
+    margin-right: 53px;
+}
+
+.cart-header {
+    position: relative;
+    bottom: 10px;
+}
+
+a#cart-icon {
+    position: relative;
+    top: 44px;
+    right: 169px;
+    font-size: 30px;
+    color: white;
+}
+
+p#items-in-cart-prompt {
+    font-size: 11px;
+    font-family: Poppins;
+    color: white;
+    position: relative;
+    right: 100px;
+}
+
+p#items-in-cart-value {
+    font-size: 17px;
+    font-family: Poppins;
+    color: #FF6500;
+    position: relative;
+    right: 102px;
+}
+
+span#arrow-bar-down {
+    color: white;
+    position: relative;
+    right: 74px;
+    bottom: 18px;
+}
+
+
+
+/***************************************************************
+find other css properties which helps you to not include media screen
+**************************************************************/
+
+/******************************************
+Media screen
+*******************************************/
+
+@media (min-width: 400px) and (max-width: 500px)  {
+
+    .head {
+        width: 674px;
+        flex-direction: column;
+        height: 107px;
+    }
+    
+    .logo {
+        display: block;
+        position: relative;
+        top: 0px;
+        right: 50px;
+    }
+    
+    .center-nav {
+        height: 0px;
+        position: relative;
+        top: 21px;
+        left: 36px;
+    }
+    
+    .nav-category {
+        display: none;
+    }
+    
+    input.nav-input {
+        border: 1px solid;
+        border-color: black;
+    }
+
+    input.nav-input::placeholder {
+        left: 12px;
+    }
+    
+    .profile-photo-block {
+        position: relative;
+        right: 80px;
+    }
+    
+    .cart-header {
+        display: none;
+    }
+    
+}

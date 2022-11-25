@@ -1,0 +1,142 @@
+.create-account-box {
+    height: 0px;
+}
+
+.create-account {
+    background-color: #FFFFFF;
+    z-index: 2;
+    width: 30%;
+    height: 531px;
+    position: relative;
+    bottom: 45px;
+    left: 500px;
+    right: auto;
+    padding: 20px 20px;
+}
+
+.exit {
+    background-color: white;
+    position: relative;
+    left: 200px;
+    color: black;
+}
+
+.exit:hover {
+    color: gray;
+}
+
+.create-account-title {
+    font-family: 'Poppins';
+    font-size: 21px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+
+.create-account-subtitle {
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: #7D7D7D;
+    text-align: center;
+    margin-top: 28px;
+    position: relative;
+    right: 5px;
+}
+
+.create-account-input-field {
+    height: 118px;
+    position: relative;
+    top: -1px;
+    margin-top: 40px;
+}
+
+input.create-account-input {
+    height: 43px;
+    width: 363px;
+    position: relative;
+    left: -9px;
+    border-radius: 20px;
+    border: solid;
+    border-color: #D8D8D8;
+    font-family: 'Poppins';
+    font-size: 13px;
+    margin: 7px;
+}
+
+
+
+
+.checkbox-field {
+    position: relative;
+    top: 73px;
+    left: 20px;
+    margin-top: 35px;
+}
+
+span.google-terms {
+    font-family: 'Poppins';
+    font-size: 12px;
+    position: relative;
+    right: -0px;
+    top: 60px;
+    bottom: 3px;
+    font-weight: 500;
+}
+
+input.checkbox {
+    position: relative;
+    top: 62px;
+    left: -12px;
+}
+
+button.create-account-button {
+    background-color: #FF6500;
+    cursor: pointer;
+    border: none;
+    border-radius: 23px;
+    width: 237px;
+    height: 50px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Poppins';
+    position: relative;
+    left: 0;
+    top: 39px;
+    margin-top: 40px;
+}
+
+.create-account-button:hover {
+    background-color: #ff812e;
+}
+
+a#signin-link {
+    position: relative;
+    top: 33px;
+    left: 85px;
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+}
+
+p#signin-prompt {
+    position: relative;
+    top: 56px;
+    right: 82px;
+}
+
+.gray-box {
+    width: 100%;
+    height: 850px;
+    background-color: black;
+    opacity: 67%;
+    position: relative;
+    z-index: 1;
+    bottom: 702px;
+}
+
+/******************************************
+Media screen
+*******************************************/

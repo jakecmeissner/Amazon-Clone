@@ -1,0 +1,453 @@
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+
+/**************************************
+ menu 
+***************************************/
+
+menu {
+    background-color: #293b51;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+
+menu .category {
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+menu .category p {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 88px;
+    position: relative;
+    left: 20px;
+}
+
+menu .sub-menu {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    font-size: 10px;
+}
+
+menu .sub-menu .menu-links {
+    border-right: 2px solid #fff;
+    padding: 0px 20px;
+}
+
+menu .sub-menu .menu-links a {
+    padding: 0px 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+}
+
+menu .sub-menu .links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 20px;
+    font-size: large;
+}
+
+menu .sub-menu .customer {
+    border-left: 2px solid #fff;
+    padding: 0px 20px;
+}
+
+menu .sub-menu .customer a {
+    font-weight: lighter;
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 20px;
+    font-size: large;
+}
+
+/**************************************
+ menu ends here
+***************************************/
+
+
+.main-image img {
+    width: 100%;
+}
+
+
+/**************************************
+ section 1 
+***************************************/
+
+.section-1 {
+    background-color: #edf2f3;
+    width: 100%;
+}
+
+.section-1 .recently-viewed {
+    text-align: center;
+    color: #444b4f;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.line-seperator-for-featured {
+    display: none;
+}
+
+
+.section-1 .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+}
+
+.section-1 .item .item-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-1 .item .item-flex .item-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*************************************
+ create account starts
+*************************************/
+
+.create-account {
+    background-color: #FFFFFF;
+    z-index: 2;
+    width: 30%;
+    height: 531px;
+    position: relative;
+    bottom: 784px;
+    left: 500px;
+    right: auto;
+    padding: 20px 20px;
+}
+
+h1.create-account-title {
+    font-family: 'Poppins';
+    font-size: 21px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+
+p.create-account-subtitle {
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: #7D7D7D;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.create-account-input-field {
+    height: 118px;
+    position: relative;
+    top: -1px;
+    margin-top: 40px;
+}
+
+input.create-account-input {
+    height: 43px;
+    width: 363px;
+    position: relative;
+    left: 14px;
+    border-radius: 20px;
+    border: solid;
+    border-color: #D8D8D8;
+    font-family: 'Poppins';
+    font-size: 13px;
+    margin: 7px;
+}
+
+input.create-account-input::placeholder {
+    position: relative;
+    left: 20px;
+}
+
+
+.checkbox-field {
+    position: relative;
+    top: 73px;
+    left: 20px;
+    margin-top: 35px;
+}
+
+span.create-account-checkbox {
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+
+button.create-account-button {
+    background-color: #FF6500;
+    border: none;
+    border-radius: 23px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-size: 13px;
+    font-family: 'Poppins';
+    position: relative;
+    left: 107px;
+    top: 68px;
+    margin-top: 40px;
+}
+
+.gray-box {
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+    opacity: 67%;
+    position: relative;
+    z-index: 1;
+    bottom: 1557px;
+}
+
+/*************************************
+ create account starts
+*************************************/
+
+/**************************************
+ section 1 ends here 
+***************************************/
+
+
+/* missing  */
+
+.item-container {
+    margin: 10px 80px;
+}
+
+.item-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.item-container .item-grid .item .item-background {
+    background-color: rgb(235, 235, 235, 70%);
+    width: 300px;
+    height: 400px;
+}
+
+.item-container .item-grid .item-background .item-image img {
+    padding: 55px 25px;
+    height: 291px;
+}
+
+.item-container .item-grid .item .item-bottom {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.item-container .item-grid .item-bottom button {
+    background-color: #59af0f;
+    color: #fff;
+    padding: 5px 5px;
+    border: 0;
+}
+
+.item-image {
+    background-color: #EBEBEB;
+    width: 268px;
+    height: 330px;
+    padding: 30px;
+}
+
+#heading-text {
+    color: #444B4F;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    padding: 40px;
+}
+
+div .item-price {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.item-details p {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    left: -7px;
+}
+
+.price {
+    font-family: 'Poppins', sans-serif;
+    color: #FF6500;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.item-price h5, p {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    right: 114px;
+    top: 6px;
+}
+
+.add-cart {
+    background-color: #59AF0F;
+    cursor: pointer;
+    color: white;
+    border: none;
+    position: relative;
+    left: 87px;
+    bottom: 30px;
+    font-size: 19px;
+    height: 30px;
+    width: 150px;
+    font-family: 'Poppins';
+    border-radius: 5px;
+}
+
+.add-cart:hover {
+    background-color: #6eb034;
+}
+
+.product-heading {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+    left: 594px;
+}
+
+.line-seperator-for-deal {
+    display: none;
+}
+
+/******************************************
+Media screen
+*******************************************/
+
+@media (min-width: 400px) and (max-width: 500px)  {
+    menu {
+        display: none;
+    }
+    
+    .main-image img {
+        width: 674px;
+        height: 127px;
+    }
+    
+    
+    /**************************************
+     section 1 
+    ***************************************/
+    
+    .section-1 {
+        width: 674px;
+    }
+    
+    .section-1 .recently-viewed {
+        position: relative;
+        bottom: 18px;
+    }
+
+    .line-seperator-for-featured {
+        display: block;
+        position: relative;
+        bottom: 40px;
+        left: 43px;
+        width: 75%;
+    }
+
+    .line-seperator-for-deal {
+        display: block;
+        position: relative;
+        bottom: 40px;
+        left: 43px;
+        width: 75%;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    
+    
+    .section-1 .item {
+        display: block;
+    }
+    
+    .section-1 .item .item-flex {
+        position: relative;
+        right: 15px;
+    }
+    
+    .section-1 .item .item-flex .item-details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    /**************************************
+     section 1 ends here 
+    ***************************************/
+    
+    .item {
+        position: relative;
+        left: 22px;
+    }
+    
+    .item-container {
+        width: 674px;
+    }
+    
+    .item-grid {
+        margin-bottom: 40px;
+    }
+    
+    .item-price h5, p {
+        right: 90px;
+        top: 6px;
+    }
+    
+    .product-heading {
+        width: 163%;
+        left: 154px;
+    }
+}

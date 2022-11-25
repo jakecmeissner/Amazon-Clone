@@ -1,0 +1,52 @@
+.order-items-header {
+    background-color: #FF6500;
+    height: 210px;
+    width: 100%;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p#order-items-header-text {
+    position: relative;
+    left: 3px;
+    top: 48px;
+}
+
+.thank-you-for-ordering-box {
+    text-align: center;
+    font-size: 35px;
+    font-family: Poppins;
+    font-weight: 500;
+    position: relative;
+    left: 93px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button#submit-button-order {
+    background-color: #FF6500;
+    cursor: pointer;
+    border: none;
+    border-radius: 23px;
+    width: 290px;
+    height: 49px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins';
+    position: relative;
+    left: -95px;
+    top: -27px;
+    margin-bottom: 69px;
+    margin-top: 70px;
+}
+
+button#submit-button-order:hover {
+    background-color: #FF812E;
+}
+
+/******************************************
+Media screen
+*******************************************/

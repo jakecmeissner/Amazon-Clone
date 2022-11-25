@@ -1,0 +1,190 @@
+.signin-account-box {
+    height: 0px;
+}
+
+.signin-account {
+    background-color: #FFFFFF;
+    z-index: 2;
+    width: 29%;
+    height: 487px;
+    position: relative;
+    bottom: 45px;
+    left: 500px;
+    right: auto;
+    padding: 20px 20px;
+}
+
+.exit {
+    background-color: white;
+    position: relative;
+    left: 200px;
+    color: black;
+}
+
+.exit:hover {
+    color: gray;
+}
+
+.signin-account-title {
+    font-family: 'Poppins';
+    font-size: 21px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+
+.signin-account-subtitle {
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: #7D7D7D;
+    text-align: center;
+    margin-top: 28px;
+    position: relative;
+    right: 5px;
+}
+
+.signin-account-input-field {
+    height: 118px;
+    position: relative;
+    top: -1px;
+    margin-top: 40px;
+}
+
+input.signin-account-input {
+    height: 43px;
+    width: 363px;
+    position: relative;
+    left: -9px;
+    border-radius: 20px;
+    border: solid;
+    border-color: #D8D8D8;
+    font-family: 'Poppins';
+    font-size: 13px;
+    margin: 7px;
+}
+
+.signin-account-input::placeholder {
+    position: relative;
+    left: 20px;
+}
+
+
+.checkbox-field {
+    position: relative;
+    top: -19px;
+    left: -18px;
+    margin-top: 35px;
+}
+
+.signin-checkbox {
+    position: relative;
+    right: 51px;
+}
+
+span.signin-account-checkbox {
+    font-family: 'Poppins';
+    font-size: 12px;
+    position: relative;
+    right: 41px;
+    bottom: 3px;
+    font-weight: 500;
+}
+
+span.forgot-password {
+    color: #808080;
+    position: relative;
+    left: 72px;
+    font-size: 16px;
+}
+
+button.signin-account-button {
+    background-color: #FF6500;
+    cursor: pointer;
+    border: none;
+    border-radius: 23px;
+    width: 290px;
+    height: 49px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins';
+    position: relative;
+    left: 0px;
+    top: 8px;
+    margin-top: 40px;
+}
+
+.signin-account-button:hover {
+    background-color: #ff812e;
+}
+
+span#not-member-yet {
+    position: relative;
+    top: 54px;
+    right: 54px;
+}
+
+a#Sign-up-link {
+    position: relative;
+    top: 54px;
+    right: 4px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.create-account-checkbox {
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+
+.gray-box {
+    width: 100%;
+    height: 850px;
+    background-color: black;
+    opacity: 67%;
+    position: relative;
+    z-index: 1;
+    bottom: 702px;
+}
+
+/******************************************
+Media screen
+*******************************************/
+
+@media (min-width: 320px) and (max-width: 500px)  {
+    .signin-account-box {
+        height: 0px;
+    }
+
+    .signin-account {
+        width: 100%;
+        bottom: 20px;
+        left: 125px;
+        right: 0;
+    }
+
+    .exit {
+        left: 120px;
+    }
+
+    .signin-account-input-field {
+        width: 20px;
+    }
+
+    input.signin-account-input {
+        width: 270px;
+    }
+
+    .checkbox-field {
+        left: 35px;
+    }
+
+    span.forgot-password {
+        left: -17px;
+    }
+
+    .gray-box {
+        width: 1990px;
+    }
+}

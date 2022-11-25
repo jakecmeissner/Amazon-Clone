@@ -1,0 +1,12 @@
+img.post-image {
+    width: 40%;
+    border-radius: 65%;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+
+.read-image-card {
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 300;
+}

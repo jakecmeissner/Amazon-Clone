@@ -1,0 +1,188 @@
+.order-items-header {
+    background-color: #FF6500;
+    height: 210px;
+    width: 100%;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p#order-items-header-text {
+    position: relative;
+    left: 3px;
+    top: 48px;
+}
+
+.order-slip {
+    position: relative;
+    right: 387px;
+    top: 6px;
+}
+
+p#shipment-details {
+    font-size: 24px;
+    font-family: Poppins;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+p#check-details {
+    font-size: 13px;
+    font-family: Poppins;
+    font-weight: 600;
+    margin-bottom: 45px;
+    margin-top: 10px;
+    left: -55px;
+}
+
+.item-order-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: 601px;
+    margin-bottom: 35px;
+}
+
+p#product-name-order-detail {
+    font-size: 13px;
+    font-family: Poppins;
+    font-weight: 600;
+    position: relative;
+    left: 0px;
+}
+
+p#product-quantity-order-detail {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    right: 360px;
+}
+
+p#product-quantity-order-detail2 {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    right: 390px;
+}
+
+div#product-price-order-detail {
+    position: relative;
+    right: 801px;
+}
+
+hr.seperator {
+    border-top: 2px solid black;
+    width: 703px;
+    position: relative;
+    left: 598px;
+}
+
+.total-price-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 39px;
+    margin-bottom: 36px;
+    position: relative;
+    left: 691px;
+}
+
+p#total-price-raw {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+p#total-price-quantity {
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    position: relative;
+    right: 441px;
+}
+
+div#total-price-box {
+    position: relative;
+    right: 883px;
+}
+
+p#total-price-value {
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+hr.seperator-orange {
+    width: 100%;
+    margin-bottom: 73px;
+    margin-top: 38px;
+    border-top: 2px dotted #FF6500;
+}
+
+form.customer-info-form {
+    position: relative;
+    right: 518px;
+}
+
+h3#customer-info-heading {
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-align: left;
+    position: relative;
+    left: 733px;
+}
+
+input#customer-info-input {
+    border-radius: 50px;
+    border: 2px solid;
+    border-color: #D8D8D8;
+    margin-bottom: 35px;
+    position: relative;
+    left: 139px;
+    width: 400px;
+    height: 37px;
+}
+
+input#customer-info-input::placeholder {
+    font-family: Poppins;
+    font-size: 13px;
+    position: relative;
+    left: 20px;
+}
+
+.submit-button-box {
+    position: relative;
+    left: 79px;
+}
+
+button#submit-button-order {
+    background-color: #FF6500;
+    cursor: pointer;
+    border: none;
+    border-radius: 23px;
+    width: 290px;
+    height: 49px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Poppins';
+    position: relative;
+    left: 85px;
+    top: -27px;
+    margin-bottom: 39px;
+    margin-top: 40px;
+}
+
+button#submit-button-order:hover {
+    background-color: #FF812E;
+}
+
+/******************************************
+Media screen
+*******************************************/
