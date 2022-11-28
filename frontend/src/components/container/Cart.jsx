@@ -8,44 +8,33 @@ import jeans2 from '../../assets/img/jeans2.png';
 import watch3 from '../../assets/img/watch3.png';
 import iphone from '../../assets/img/iphone.png';
 import { BsXLg } from 'react-icons/bs';
-import { CiCircleMinus, CiCirclePlus } from "react-icons/ci";
+import { HiMinus, HiPlus } from "react-icons/hi";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 
 function Cart() {
   const navigate = useNavigate();
 
-  const [quantity1, setQuantity1] = useState(0);
-  const incrementCounter1 = () => setQuantity1(quantity1+1)
-  const decrementCounter1 = () => setQuantity1(quantity1-1)
+  const incrementCounter1 = () => setNum(num+1)
+  const decrementCounter1 = () => setNum(num-1)
 
-  const [quantity2, setQuantity2] = useState(0);
-  const incrementCounter2 = () => setQuantity2(quantity2+1)
-  const decrementCounter2 = () => setQuantity2(quantity2-1)
+  const incrementCounter2 = () => setNum2(num2+1)
+  const decrementCounter2 = () => setNum2(num2-1)
 
-  const [quantity3, setQuantity3] = useState(0);
-  const incrementCounter3 = () => setQuantity3(quantity3+1)
-  const decrementCounter3 = () => setQuantity3(quantity3-1)
+  const incrementCounter3 = () => setNum3(num3+1)
+  const decrementCounter3 = () => setNum3(num3-1)
 
-  const [quantity4, setQuantity4] = useState(0);
-  const incrementCounter4 = () => setQuantity4(quantity4+1)
-  const decrementCounter4 = () => setQuantity4(quantity4-1)
+  const incrementCounter4 = () => setNum4(num4+1)
+  const decrementCounter4 = () => setNum4(num4-1)
 
-  const [quantity5, setQuantity5] = useState(0);
-  const incrementCounter5 = () => setQuantity5(quantity5+1)
-  const decrementCounter5 = () => setQuantity5(quantity5-1)
+  const incrementCounter5 = () => setNum5(num5+1)
+  const decrementCounter5 = () => setNum5(num5-1)
 
   const [num, setNum] = useState(0)
-
-  const increment = () =>{
-    setNum(num+1)
-
-  }
-
-  const decrement = () =>{
-    setNum(num-1)
-
-  }
+  const [num2, setNum2] = useState(0)
+  const [num3, setNum3] = useState(0)
+  const [num4, setNum4] = useState(0)
+  const [num5, setNum5] = useState(0)
 
   return (
     <div className='cart-block'>
@@ -68,14 +57,13 @@ function Cart() {
           </div>
           <span id='color-value'>Peach</span>
           <span id='size-value'>XL</span>
-
           <div className='amount-button'>
             <div className='amount-button-minus'>
-              <button id='amount-button-trigger-minus' onClick={decrement}>-</button>
+              <button id='amount-button-trigger-minus' onClick={() => decrementCounter1()}><HiMinus /></button>
             </div>
             <p id='amount-value'>{num}</p>
             <div className='amount-button-add'>
-              <button id='amount-button-trigger-add' onClick={increment}>+</button>
+              <button id='amount-button-trigger-add' onClick={() => incrementCounter1()}><HiPlus /></button>
             </div>
           </div>
 
@@ -96,11 +84,11 @@ function Cart() {
           <span id='size-value'>XL</span>
           <div className='amount-button'>
             <div className='amount-button-minus'>
-              <button id='amount-button-trigger-minus' onClick={decrement}><CiCircleMinus /></button>
+              <button id='amount-button-trigger-minus' onClick={() => decrementCounter2()}><HiMinus /></button>
             </div>
-            <p id='amount-value'>{num}</p>
+            <p id='amount-value'>{num2}</p>
             <div className='amount-button-add'>
-              <button id='amount-button-trigger-add' onClick={increment}><CiCirclePlus /></button>
+              <button id='amount-button-trigger-add' onClick={() => incrementCounter2()}><HiPlus /></button>
             </div>
           </div>
           <span id='price-value'>$69.99</span>
@@ -119,11 +107,11 @@ function Cart() {
           <span id='size-value-denim'>XL</span>
           <div className='amount-button'>
             <div className='amount-button-minus'>
-              <button id='amount-button-trigger-minus' onClick={decrement}><CiCircleMinus /></button>
+              <button id='amount-button-trigger-minus' onClick={() => decrementCounter3()}><HiMinus /></button>
             </div>
-            <p id='amount-value'>{num}</p>
+            <p id='amount-value'>{num3}</p>
             <div className='amount-button-add'>
-              <button id='amount-button-trigger-add' onClick={increment}><CiCirclePlus /></button>
+              <button id='amount-button-trigger-add' onClick={() => incrementCounter3()}><HiPlus /></button>
             </div>
           </div>
           <span id='price-value'>$69.99</span>
@@ -155,11 +143,11 @@ function Cart() {
           <span id='size-value'>-</span>
           <div className='amount-button'>
             <div className='amount-button-minus'>
-              <button id='amount-button-trigger-minus' onClick={decrement}><CiCircleMinus /></button>
+              <button id='amount-button-trigger-minus' onClick={() => decrementCounter4()}><HiMinus /></button>
             </div>
-            <p id='amount-value'>{num}</p>
+            <p id='amount-value'>{num4}</p>
             <div className='amount-button-add'>
-              <button id='amount-button-trigger-add' onClick={increment}><CiCirclePlus /></button>
+              <button id='amount-button-trigger-add' onClick={() => incrementCounter4()}><HiPlus /></button>
             </div>
           </div>
           <span id='price-value'>$159.99</span>
@@ -178,11 +166,11 @@ function Cart() {
           <span id='size-value-iphone'>Standard</span>
           <div className='amount-button'>
             <div className='amount-button-minus'>
-              <button id='amount-button-trigger-minus' onClick={decrement}><CiCircleMinus /></button>
+              <button id='amount-button-trigger-minus' onClick={() => decrementCounter5()}><HiMinus /></button>
             </div>
-            <p id='amount-value'>{num}</p>
+            <p id='amount-value'>{num5}</p>
             <div className='amount-button-add'>
-              <button id='amount-button-trigger-add' onClick={increment}><CiCirclePlus /></button>
+              <button id='amount-button-trigger-add' onClick={() => incrementCounter5()}><HiPlus /></button>
             </div>
           </div>
           <span id='price-value'>$999.99</span>

@@ -30,7 +30,7 @@
     flex-direction: row;
     text-align: center;
     position: relative;
-    left: 10px;
+    left: -15px;
 }
 
 span#product-column-heading {
@@ -54,7 +54,7 @@ span#size-column-heading {
     font-size: 14px;
     color: #C1C1C1;
     position: relative;
-    left: 697px;
+    left: 667px;
 }
 
 span#amount-column-heading {
@@ -70,7 +70,7 @@ span#price-column-heading {
     font-size: 14px;
     color: #C1C1C1;
     position: relative;
-    left: 917px;
+    left: 947px;
 }
 
 div#product-image {
